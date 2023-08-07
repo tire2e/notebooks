@@ -1,1 +1,165 @@
-[]
+[
+    {
+        "name": "OWL-ViT",
+        "description": "Simple Open-Vocabulary Object Detection with Vision Transformers",
+        "author": [
+            [
+                "Matthias Minderer",
+                "http://matthias.minderer.net/"
+            ],
+            [
+                "Alexey Gritsenko",
+                "https://github.com/AlexeyG"
+            ],
+            [
+                "Austin Stone",
+                "https://github.com/AustinCStone"
+            ],
+            [
+                "Maxim Neumann",
+                "https://github.com/maximneumann"
+            ],
+            [
+                "Dirk Weissenborn",
+                "https://github.com/dirkweissenborn"
+            ],
+            [
+                "Alexey Dosovitskiy",
+                "https://scholar.google.com/citations?user=FXNJRDoAAAAJ"
+            ],
+            [
+                "Aravindh Mahendran",
+                "https://github.com/aravindhm"
+            ],
+            [
+                "Anurag Arnab",
+                "https://github.com/anuragarnab"
+            ],
+            [
+                "Mostafa Dehghani",
+                "https://mostafadehghani.com/"
+            ],
+            [
+                "Zhuoran Shen",
+                "https://cmsflash.github.io/"
+            ],
+            [
+                "Xiao Wang",
+                "https://scholar.google.com/citations?user=ukyXqzMAAAAJ"
+            ],
+            [
+                "Xiaohua Zhai",
+                "https://github.com/xiaohuazhai"
+            ],
+            [
+                "Thomas Kipf",
+                "https://tkipf.github.io/"
+            ],
+            [
+                "Neil Houlsby",
+                "https://neilhoulsby.github.io/"
+            ]
+        ],
+        "links": [
+            [
+                "arxiv",
+                "https://arxiv.org/abs/2205.06230"
+            ],
+            [
+                "huggingface",
+                "https://huggingface.co/docs/transformers/model_doc/owlvit"
+            ],
+            [
+                "git",
+                "https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit",
+                2207
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/zeroshot_object_detection_with_owlvit.ipynb/",
+        "update": 1675863392
+    },
+    {
+        "name": "DeOldify (video)",
+        "description": "Colorize your own videos!",
+        "author": [
+            [
+                "Jason Antic",
+                "https://github.com/jantic"
+            ]
+        ],
+        "links": [
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1805.08318"
+            ],
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1706.08500"
+            ],
+            [
+                "reddit",
+                "https://www.reddit.com/r/Nickelodeons/"
+            ],
+            [
+                "reddit",
+                "https://www.reddit.com/r/silentmoviegifs/"
+            ],
+            [
+                "youtube",
+                "http://www.youtube.com/watch?v=l3UXXid04Ys"
+            ],
+            [
+                "youtube",
+                "http://www.youtube.com/watch?v=EXn-n2iqEjI"
+            ],
+            [
+                "model",
+                "https://data.deepai.org/deoldify/ColorizeVideo_gen.pth"
+            ],
+            [
+                "medium",
+                "https://medium.com/element-ai-research-lab/stabilizing-neural-style-transfer-for-video-62675e203e42"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/VideoColorizerColab.ipynb/",
+        "update": 1663572869
+    },
+    {
+        "name": "DeOldify (photo)",
+        "description": "Colorize your own photos!",
+        "author": [
+            [
+                "Jason Antic",
+                "https://github.com/jantic"
+            ],
+            [
+                "Matt Robinson",
+                "https://github.com/mc-robinson"
+            ],
+            [
+                "María Benavente",
+                "https://github.com/mariabg"
+            ]
+        ],
+        "links": [
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1805.08318"
+            ],
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1706.08500"
+            ],
+            [
+                "reddit",
+                "https://www.reddit.com/r/TheWayWeWere/"
+            ],
+            [
+                "model",
+                "https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/ImageColorizerColab.ipynb/",
+        "update": 1663572869
+    }
+]
