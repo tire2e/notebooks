@@ -6,7 +6,7 @@ from os.path import join
 
 badges = {'e2e', 'tir', 'colab', 'youtube', 'git', 'wiki', 'kaggle', 'arxiv', 'tf', 'pt', 'medium', 'reddit', 'neurips', 'paperswithcode', 'huggingface', 'docs', 'slack', 'twitter', 'deepmind', 'discord'}
 
-TIR_BASE_URL = "https://gpu-notebooks.e2enetworks.com"
+TIR_BASE_URL = "https://thor-gpu.e2enetworks.net"
 TOP_K = 2  # TODO
 
 
