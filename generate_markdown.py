@@ -16,8 +16,7 @@ def format_tir_url(url: str) -> str:
 
 def tir_url(url: str) -> str:
     url = format_tir_url(url)
-    return f'[<img src="images/open-in-tir.png" alt="Open In TIR" width=200/>]({url})'
-    # return f'[![Open In TIR](images/open-in-tir.png)]({url})'
+    return f'[![Open In TIR](images/open-in-tir.png)]({url})'
 
 
 def doi_url(url: str) -> str:
@@ -166,6 +165,27 @@ def generate_table(fn: str, num_visible_authors: int, f):
     data = read_json(fn)
     colabs = sorted(data, key=lambda kv: kv['update'], reverse=True)
 
+    table_style='''
+<style>
+table th:first-of-type {
+    width: 15%;
+}
+table th:nth-of-type(2) {
+    width: 30%;
+}
+table th:nth-of-type(3) {
+    width: 15%;
+}
+table th:nth-of-type(4) {
+    width: 15%;
+}
+table th:nth-of-type(5) {
+    width: 15%;
+}
+</style>
+'''
+
+    print(table_style, file=f)
     print('| Name | Description | Authors | Links | Open in TIR |', file=f)
     print('|------|-------------|:--------|:------|:-----------:|', file=f)
     for line in colabs:
