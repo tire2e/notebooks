@@ -1,49 +1,11 @@
 # Some popular notebooks' collection for ML experiments
 ## Research
-
-<style>
-table th:first-of-type {
-    width: 15%;
-}
-table th:nth-of-type(2) {
-    width: 30%;
-}
-table th:nth-of-type(3) {
-    width: 15%;
-}
-table th:nth-of-type(4) {
-    width: 15%;
-}
-table th:nth-of-type(5) {
-    width: 15%;
-}
-</style>
-
 | Name | Description | Authors | Links | Open in TIR |
 |------|-------------|:--------|:------|:-----------:|
 | OWL-ViT | Simple Open-Vocabulary Object Detection with Vision Transformers | <ul><li>[Matthias Minderer](http://matthias.minderer.net/)</li><details><summary>others</summary><li>[Alexey Gritsenko](https://github.com/AlexeyG)</li> <li>[Austin Stone](https://github.com/AustinCStone)</li> <li>[Maxim Neumann](https://github.com/maximneumann)</li> <li>[Dirk Weissenborn](https://github.com/dirkweissenborn)</li> <li>[Alexey Dosovitskiy](https://scholar.google.com/citations?user=FXNJRDoAAAAJ)</li> <li>[Aravindh Mahendran](https://github.com/aravindhm)</li> <li>[Anurag Arnab](https://github.com/anuragarnab)</li> <li>[Mostafa Dehghani](https://mostafadehghani.com/)</li> <li>[Zhuoran Shen](https://cmsflash.github.io/)</li> <li>[Xiao Wang](https://scholar.google.com/citations?user=ukyXqzMAAAAJ)</li> <li>[Xiaohua Zhai](https://github.com/xiaohuazhai)</li> <li>[Thomas Kipf](https://tkipf.github.io/)</li> <li>[Neil Houlsby](https://neilhoulsby.github.io/)</li></ul></details> | [![](https://img.shields.io/github/stars/google-research/scenic?style=social)](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit) <ul><li>[<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/2205.06230)</li><li>[<img src="images/huggingface.svg" alt="huggingface" height=20/>](https://huggingface.co/docs/transformers/model_doc/owlvit)</li></ul> | [![Open In TIR](images/open-in-tir.png)](https://gpu-notebooks.e2enetworks.com/github/tire2e/notebooks/blob/main/notebooks/zeroshot_object_detection_with_owlvit.ipynb/) |
 | DeOldify (video) | Colorize your own videos! | [Jason Antic](https://github.com/jantic) | <ul><li>[<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/1805.08318), [<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/1706.08500)</li><li>[<img src="images/medium.svg" alt="medium" height=20/>](https://medium.com/element-ai-research-lab/stabilizing-neural-style-transfer-for-video-62675e203e42)</li><li>[model](https://data.deepai.org/deoldify/ColorizeVideo_gen.pth)</li><li>[<img src="images/reddit.svg" alt="reddit" height=20/>](https://www.reddit.com/r/Nickelodeons/), [<img src="images/reddit.svg" alt="reddit" height=20/>](https://www.reddit.com/r/silentmoviegifs/)</li><li>[<img src="images/youtube.svg" alt="youtube" height=20/>](http://www.youtube.com/watch?v=l3UXXid04Ys), [<img src="images/youtube.svg" alt="youtube" height=20/>](http://www.youtube.com/watch?v=EXn-n2iqEjI)</li></ul> | [![Open In TIR](images/open-in-tir.png)](https://gpu-notebooks.e2enetworks.com/github/tire2e/notebooks/blob/main/notebooks/VideoColorizerColab.ipynb/) |
 | DeOldify (photo) | Colorize your own photos! | <ul><li>[Jason Antic](https://github.com/jantic)</li><details><summary>others</summary><li>[Matt Robinson](https://github.com/mc-robinson)</li> <li>[María Benavente](https://github.com/mariabg)</li></ul></details> | <ul><li>[<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/1805.08318), [<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/1706.08500)</li><li>[model](https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth)</li><li>[<img src="images/reddit.svg" alt="reddit" height=20/>](https://www.reddit.com/r/TheWayWeWere/)</li></ul> | [![Open In TIR](images/open-in-tir.png)](https://gpu-notebooks.e2enetworks.com/github/tire2e/notebooks/blob/main/notebooks/ImageColorizerColab.ipynb/) |
 ## Tutorials
-
-<style>
-table th:first-of-type {
-    width: 15%;
-}
-table th:nth-of-type(2) {
-    width: 30%;
-}
-table th:nth-of-type(3) {
-    width: 15%;
-}
-table th:nth-of-type(4) {
-    width: 15%;
-}
-table th:nth-of-type(5) {
-    width: 15%;
-}
-</style>
-
 | Name | Description | Authors | Links | Open in TIR |
 |------|-------------|:--------|:------|:-----------:|
 | Pix2Pix | This notebook demonstrates image to image translation using conditional GAN's | [Billy Lamberta](https://github.com/lamberta) | <ul><li>[<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/1611.07004)</li><li>[data](https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/)</li></ul> | [![Open In TIR](images/open-in-tir.png)](https://gpu-notebooks.e2enetworks.com/github/tire2e/notebooks/blob/main/notebooks/pix2pix.ipynb/) |
