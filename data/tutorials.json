@@ -1,1 +1,112 @@
-[]
+[
+    {
+        "name": "Classification of chest vs. adominal X-rays",
+        "description": "The goal of this tutorial is to build a deep learning classifier to accurately differentiate between chest and abdominal X-rays",
+        "author": [
+            [
+                "tmoneyx01",
+                "https://github.com/tmoneyx01"
+            ]
+        ],
+        "links": [
+            [
+                "annotator",
+                "https://public.md.ai/annotator/project/PVq9raBJ"
+            ],
+            [
+                "git",
+                "https://github.com/mdai/mdai-client-py",
+                24
+            ],
+            [
+                "docs",
+                "https://docs.md.ai/"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/medical-imaging-lessons-mdai/lesson1-xray-images-classification.ipynb/",
+        "update": 1583560020
+    },
+    {
+        "name": "Lung X-Rays Semantic Segmentation",
+        "description": "This lesson applies a U-Net for Semantic Segmentation of the lung fields on chest x-rays",
+        "author": [
+            [
+                "tmoneyx01",
+                "https://github.com/tmoneyx01"
+            ]
+        ],
+        "links": [
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1505.04597"
+            ],
+            [
+                "annotator",
+                "https://public.md.ai/annotator/project/aGq4k6NW"
+            ],
+            [
+                "git",
+                "https://github.com/mdai/mdai-client-py",
+                24
+            ],
+            [
+                "data",
+                "https://ceb.nlm.nih.gov/repositories/tuberculosis-chest-x-ray-image-data-sets/"
+            ],
+            [
+                "docs",
+                "https://docs.md.ai/"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/medical-imaging-lessons-mdai/lesson2-lung-xrays-segmentation.ipynb/",
+        "update": 1583560020
+    },
+    {
+        "name": "DCGAN",
+        "description": "This tutorial demonstrates how to generate images of handwritten digits using a Deep Convolutional Generative Adversarial Network",
+        "author": [
+            [
+                "Billy Lamberta",
+                "https://github.com/lamberta"
+            ]
+        ],
+        "links": [
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1511.06434"
+            ],
+            [
+                "kaggle",
+                "https://www.kaggle.com/jessicali9530/celeba-dataset"
+            ],
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1701.00160"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/dcgan.ipynb/",
+        "update": 1615573399
+    },
+    {
+        "name": "Pix2Pix",
+        "description": "This notebook demonstrates image to image translation using conditional GAN's",
+        "author": [
+            [
+                "Billy Lamberta",
+                "https://github.com/lamberta"
+            ]
+        ],
+        "links": [
+            [
+                "arxiv",
+                "https://arxiv.org/abs/1611.07004"
+            ],
+            [
+                "data",
+                "https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/pix2pix.ipynb/",
+        "update": 1678324111
+    }
+]
