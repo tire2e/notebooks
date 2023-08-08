@@ -182,7 +182,7 @@ def generate_table(fn: str, num_visible_authors: int, f):
 def generate_markdown():
     top_authors, num_visible_authors = get_top_authors(TOP_K)
     with open('README.md', 'w', encoding='utf-8') as f:
-        # print('[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/tire2e/notebooks)](https://hits.seeyoufarm.com)', file=f)
+        print('[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/tire2e/notebooks)](https://hits.seeyoufarm.com)', file=f)
         print('# Some popular notebooks\' collection for ML experiments', file=f)
         print('## Research', file=f)
         generate_table(join('data', 'research.json'), num_visible_authors, f)

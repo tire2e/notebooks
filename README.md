@@ -1,3 +1,4 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/tire2e/notebooks)](https://hits.seeyoufarm.com)
 # Some popular notebooks' collection for ML experiments
 ## Research
 | Name | Description | Authors | Links | Open in TIR |
