@@ -16,7 +16,7 @@ def format_tir_url(url: str) -> str:
 
 def tir_url(url: str) -> str:
     url = format_tir_url(url)
-    return f'[![Open In TIR](images/open-in-tir.png)]({url})'
+    return f'[<img src="images/open-in-tir.png" alt="Open In TIR" width=200px/>]({url})'
 
 
 def doi_url(url: str) -> str:
@@ -165,7 +165,7 @@ def generate_table(fn: str, num_visible_authors: int, f):
     data = read_json(fn)
     colabs = sorted(data, key=lambda kv: kv['update'], reverse=True)
 
-    print('| Name | Description | Authors | Links | Open in TIR |', file=f)
+    print('| <div style="width:500px">Name</div> | Description | Authors | Links | Open in TIR |', file=f)
     print('|------|-------------|:--------|:------|:-----------:|', file=f)
     for line in colabs:
         nb_item = {
@@ -176,7 +176,7 @@ def generate_table(fn: str, num_visible_authors: int, f):
             "url": tir_url(line['tir_url']),
             # "update": datetime.fromtimestamp(line['update']).strftime('%d.%m.%Y'),
         }
-        print('| {name} | {description} | {author} | {links} | {url} |'.format(**nb_item), file=f)
+        print('| <div style="width:500px">{name}</div> | {description} | {author} | {links} | {url} |'.format(**nb_item), file=f)
 
 
 def generate_markdown():
