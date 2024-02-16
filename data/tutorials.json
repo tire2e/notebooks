@@ -108,5 +108,31 @@
         ],
         "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/pix2pix.ipynb/",
         "update": 1678324111
+    },
+    {
+        "name": "YOLOv8",
+        "description": "This notebook demonstrates fine-tuning of YOLOv8 for object detection on a custom dataset",
+        "author": [
+            [
+                "Piotr Skalski",
+                "https://blog.roboflow.com/author/skalskip/"
+            ],
+            [
+                "Devansh Jain",
+                "https://github.com/devansh-e2e"
+            ]
+        ],
+        "links": [
+            [
+                "roboflow",
+                "https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/"
+            ],
+            [
+                "data",
+                "https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/2?ref=blog.roboflow.com"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/YOLOv8_Object_Detection.ipynb/",
+        "update": 1678324112
     }
 ]
