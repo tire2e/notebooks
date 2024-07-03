@@ -164,5 +164,23 @@
         ],
         "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/whisper-v3.ipynb/",
         "update": 1678324113
+    },
+    {
+        "name": "Access Google Drive in TIR Notebooks",
+        "description": "This notebook provides a step-by-step guide on accessing your Google Drive in TIR Notebooks",
+        "author": [
+            [
+                "TIR",
+                "https://github.com/tire2e"
+            ]
+        ],
+        "links": [
+            [
+                "Drive API",
+                "https://developers.google.com/drive/api/guides/about-sdk"
+            ]
+        ],
+        "tir_url": "{tir_base_url}/github/tire2e/notebooks/blob/main/notebooks/tir-tutorials/drive_access_in_notebook.ipynb/",
+        "update": 1500000000
     }
 ]
